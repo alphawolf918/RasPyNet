@@ -6,7 +6,7 @@ A network speed logger written in Python that logs network speeds to a MySQL dat
 
 You'll need a Raspberry Pi, preferably version 3, Python 3, PHP 7, apache2 and MySQL installed. There are separate tutorials to install these. Most can be found at http://www.pimylifeup.com/. You'll also need to set this up as a Crontab job so that it runs hourly. The setup is pretty manual, but after the initial setup, it pretty much runs itself. More customization options and better versions with filters and more features will be available in the future.
 
-##Instructions
+## Instructions
 
 * First thing you'll need to do is tun the PyNet.sql file to create the database, table and view. Python inserts into the table, while the web UI reads from the view.
 
